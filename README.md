@@ -21,9 +21,7 @@ OK, let's explain how to pass this lab, and stick this bad boy on your refrigera
 CODE SUBMITTED 
 
 // Enter querySelector Code 
-var header = document.querySelector("#header").innerHTML;
-var linkText = document.querySelector('a').innerHTML;
-var linkHref = document.querySelector('a').href;
+
 
 
 // NO NEED TO MODIFY BELOW HERE
@@ -36,9 +34,9 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
 //Enter querySelector Code here
-var header = "ENTER HEADER CODE HERE"
-var linkText = "ENTER LINK TEXT CODE HERE"
-var linkHref = "ENTER LINK HREF CODE HERE"
+var header = document.querySelector("#header").innerHTML;
+var linkText = document.querySelector('a').innerHTML;
+var linkHref = document.querySelector('a').href;
 
 
 // NO NEED TO MODIFY BELOW HERE
