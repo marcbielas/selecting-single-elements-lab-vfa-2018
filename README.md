@@ -18,6 +18,20 @@ OK, let's explain how to pass this lab, and stick this bad boy on your refrigera
 <iframe height='482' scrolling='no' title='adele-goldberg-simplified' src='//codepen.io/joemburgess/embed/PmxyNW/?height=482&theme-id=0&default-tab=js,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/joemburgess/pen/PmxyNW/'>adele-goldberg-simplified</a> by Joe Burgess (<a href='http://codepen.io/joemburgess'>@joemburgess</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
+CODE SUBMITTED 
+
+// Enter querySelector Code 
+var header = document.querySelector("#header").innerHTML;
+var linkText = document.querySelector('a').innerHTML;
+var linkHref = document.querySelector('a').href;
+
+
+// NO NEED TO MODIFY BELOW HERE
+console.log(`The header is: ${header}`)
+console.log(`The first link text is: ${linkText}`)
+console.log(`The first link href is: ${linkHref}`)
+ 
+
 Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
